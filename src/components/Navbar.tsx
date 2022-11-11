@@ -6,7 +6,6 @@ export function Navbar() {
 
   const {
     openCart,
-    closeCart,
     cartQuantity
   } = useShoppingCart();
 

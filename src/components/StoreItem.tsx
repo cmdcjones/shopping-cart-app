@@ -17,7 +17,7 @@ export function StoreItem({ id, name, price, imgUrl }: StoreItemProps) {
       removeFromCart
     } = useShoppingCart();
 
-    const quantity = getItemQuantity(id);
+    const itemQuantity = getItemQuantity(id);
 
     return (
       <Card className="h-100">
@@ -39,7 +39,7 @@ export function StoreItem({ id, name, price, imgUrl }: StoreItemProps) {
             <span className="ms-2 text-muted">{formatCurrency(price)}</span>
           </Card.Title>
           <div className="mt-auto">
-            {quantity === 0 ?
+            {itemQuantity === 0 ?
               <Button 
                 className="w-100"
                 onClick={() => increaseCartQuantity(id)}
@@ -60,7 +60,7 @@ export function StoreItem({ id, name, price, imgUrl }: StoreItemProps) {
                   >
                     <Button onClick={() => decreaseCartQuantity(id)}>-</Button>
                     <div>
-                      <span className="fs-3">{quantity}</span> in cart
+                      <span className="fs-3">{itemQuantity}</span> in cart
                     </div>
                     <Button onClick={() => increaseCartQuantity(id)}>+</Button>
                   </div>

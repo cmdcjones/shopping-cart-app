@@ -1,6 +1,7 @@
 {
   "name": "shopping-cart",
   "private": true,
+  "homepage": "https://cmdcjones.github.io/shopping-cart-app/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {

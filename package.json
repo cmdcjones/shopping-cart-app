@@ -2,7 +2,6 @@
   "name": "shopping-cart",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://cmdcjones.github.io/shopping-cart-app/",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",

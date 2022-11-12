@@ -15,7 +15,6 @@ type ShoppingCartContext = {
   closeCart: () => void
   cartQuantity: number
   cartItems: CartItem[]
-  cartTotal: number
 }
 
 type CartItem = {

@@ -5,4 +5,4 @@
 - Simple UI to create a cart, view individual prices, and clear the entire cart
 
 ## Demo
-![](public/shopping-cart.mp4)
+![](public/shopping-cart.png)
